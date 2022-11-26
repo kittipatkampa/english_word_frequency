@@ -19,5 +19,18 @@ Now, we will use pipenv to install all the dependencies:
 pipenv install
 ```
 
-# A few more things
-We will use the English Word Frequency dataset made available by [Rachael Tatman in this Kaggle article](https://www.kaggle.com/datasets/rtatman/english-word-frequency?resource=download). Somehow, I just put the file in this repo already for our convenience.
+# Dataset
+We will use the English Word Frequency dataset made available by [Rachael Tatman in this Kaggle article](https://www.kaggle.com/datasets/rtatman/english-word-frequency?resource=download). Somehow, I just put the csv file `unigram_freq.csv.zip` in this repo already for our convenience.
+
+So, we will need to unzip the file using this command:
+```
+unzip unigram_freq.csv.zip
+```
+which gives you `unigram_freq.csv` in your project directry, which can be verified by:
+```
+ls -l *.csv
+```
+and you should see the csv file there:
+```
+-rw-r--r--@ 1 kittipat.kampa  staff  4956252 Sep 21  2019 unigram_freq.csv
+```
